@@ -1,0 +1,18 @@
+{
+    "name": "user/comment-role-capability",
+    "description": "comment accessbility of particular user role",
+    "type": "project",
+    "license": "GPL github",
+    "authors": [
+        {
+            "name": "Pravin Shrikhnade",
+            "email": "pravins@fht.co.in"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": { "Inc\\": "./inc" }
+        "files": ["../../../../wp-admin/includes/class-wp-list-table.php"]
+    }
+}
